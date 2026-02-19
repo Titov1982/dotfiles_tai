@@ -4,3 +4,4 @@ end
 
 
 alias ll="ls -lsAF --color=auto"
+alias bat="batcat"
