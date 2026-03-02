@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Установка nvim:
-sudo pacman -Syy neovim
+sudo pacman -S --noconfirm neovim
 
 # Установка ripgrep:
-sudo pacman -Syy ripgrep
+sudo pacman -S --noconfirm ripgrep
 
 # Установка python:
 #sudo pacman -Sy python
 # Установка npm:
-sudo pacman -Syy npm 
+sudo pacman -S --noconfirm npm 
 
 # Установка tree-sitter-cli
 npm install tree-sitter-cli
@@ -25,4 +25,4 @@ rm JetBrainsMono.zip
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 
 # Установка компонентов разработки
-sudo pacman -Syy tmux bat base-devel binutils 
+sudo pacman -S --noconfirm tmux bat base-devel binutils 
