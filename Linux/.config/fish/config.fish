@@ -1,6 +1,8 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    
+
+    # Подключиться к сессии main
+    tmux attach -t main
     # Создаем новую сессию - main
     # Создаем новое окно - shell
     # Делим основное окно горизонтально split-window -h
